@@ -1,4 +1,4 @@
-package net.osgg.RecipesREST.img;
+package net.osgg.RecipesREST.service;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -9,6 +9,8 @@ import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.multipart.MultipartFile;
+
+import net.osgg.RecipesREST.exceptions.FileStorageException;
 
 import org.springframework.stereotype.Service;
 

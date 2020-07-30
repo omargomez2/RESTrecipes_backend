@@ -1,4 +1,4 @@
-package net.osgg.RecipesREST.img;
+package net.osgg.RecipesREST.exceptions;
 
 public class FileStorageException extends RuntimeException {
 

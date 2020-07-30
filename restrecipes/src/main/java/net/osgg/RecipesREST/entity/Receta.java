@@ -8,7 +8,7 @@
 | 
  -------------------------------------------------------------------
 																*/
-package net.osgg.RecipesREST;
+package net.osgg.RecipesREST.entity;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.Id;	

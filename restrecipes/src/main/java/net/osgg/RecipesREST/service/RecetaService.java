@@ -8,9 +8,14 @@
 | 
  -------------------------------------------------------------------
 																*/
-package net.osgg.RecipesREST;
+package net.osgg.RecipesREST.service;
 
 import org.springframework.stereotype.Service;
+
+import net.osgg.RecipesREST.entity.Receta;
+import net.osgg.RecipesREST.exceptions.RecordNotFoundException;
+import net.osgg.RecipesREST.repository.RecetaRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import java.util.ArrayList;
 import java.util.List;

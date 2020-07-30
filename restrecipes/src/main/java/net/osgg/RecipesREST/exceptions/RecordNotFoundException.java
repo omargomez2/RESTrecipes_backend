@@ -3,12 +3,12 @@
 |
 | CRUDyLeaf	- A Domain Specific Language for generating Spring Boot 
 |			REST resources from entity CRUD operations.
-| Author: Omar S. Gómez (2020)
+| Author: Omar S. Gï¿½mez (2020)
 | File Date: Sun Jul 12 09:54:32 COT 2020
 | 
  -------------------------------------------------------------------
 																*/
-package net.osgg.RecipesREST;
+package net.osgg.RecipesREST.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

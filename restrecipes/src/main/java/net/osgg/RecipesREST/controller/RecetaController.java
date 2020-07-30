@@ -8,10 +8,14 @@
 | 
  -------------------------------------------------------------------
 																*/
-package net.osgg.RecipesREST;
+package net.osgg.RecipesREST.controller;
 
 
-import net.osgg.RecipesREST.img.PictureService;
+import net.osgg.RecipesREST.entity.Receta;
+import net.osgg.RecipesREST.exceptions.RecordNotFoundException;
+import net.osgg.RecipesREST.service.PictureService;
+import net.osgg.RecipesREST.service.RecetaService;
+
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
