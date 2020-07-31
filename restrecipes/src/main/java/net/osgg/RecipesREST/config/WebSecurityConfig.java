@@ -56,7 +56,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				// dont authenticate this particular request
 				.authorizeRequests().antMatchers("/api/v1/authenticate", "/h2-console/**").permitAll()
 				.antMatchers(HttpMethod.GET, "/api/v1/receta/**", "/api/v1/pic/**").permitAll()
-				.antMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+						//.antMatchers(HttpMethod.OPTIONS, "/**").permitAll()
 				// all other requests need to be authenticated
 				.anyRequest().authenticated().and()
 				// make sure we use stateless session; session won't be used to
